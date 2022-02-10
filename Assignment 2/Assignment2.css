@@ -1,0 +1,103 @@
+.nav-div {
+	background-color: black;
+	height: 5vw;
+	margin: -10px -10px -10px -10px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
+
+.nav a {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	width: 15vmin;
+	font-size: 2vmin;
+	line-height: 5vw;
+
+}
+
+.nav a:hover {
+	background-color: orange;
+}
+
+.assignment1{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+
+.assignment1-border{
+        width: 23%;
+    	border: 5px solid hotpink;
+}
+
+.content {
+	justify-content: center;
+	display: flex;
+	margin-top: 100px;
+}
+
+
+.city-img img {
+	width: 30vmin;
+	border: 2px solid black;
+	border-radius: 12px;
+	height: 350px;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 350px;
+}
+
+.table p {
+	line-height: 1.5;
+	width: 27vmin;
+	margin: 0;
+	padding: 35px;
+}
+
+
+.p1 {
+	background-color: hotpink;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.p2 {
+	background-color: pink;
+	font-family: Courier;
+}
+
+.p3 {
+	background-color: lightpink;
+	font-family: Corsiva;
+}
+
+.table button {
+	line-height: 2.5;
+	width: 20vmin;
+	height: 50px;
+	background-color: orange;
+	border: none;
+	border-radius: 10px;
+	margin-top: 3vmin;
+	color: white;
+	font-weight: bolder;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 10vmin;
+	font-size: 20px;
+	font-family: Arial;
+	margin-top: 60px;
+}
