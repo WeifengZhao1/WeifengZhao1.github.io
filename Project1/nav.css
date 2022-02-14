@@ -1,0 +1,27 @@
+/* nav section */
+
+.nav{
+    text-align: center;
+}
+
+.nav ul{
+	width: 90%;
+	list-style-type: none;
+	display: flex;
+    
+}
+
+.nav li{
+	width: 30%;
+	line-height: 5vmin;
+    
+}
+
+.nav a{
+	text-decoration: none;
+	color: blue;
+    font-size: 2.6vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
