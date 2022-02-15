@@ -1,0 +1,98 @@
+.city{
+    background-image: url('city.jpeg');
+    background-repeat: no-repeat;
+    /* background-color: cyan; */
+    height: 600px;
+    background-position: center;
+    /* background-size: cover; */
+    background-size: cover;
+    position: relative;
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+  
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.container{
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    right:2%;
+    background-color: rgba(138, 138, 138, 0.5);
+    color: white;
+}
+
+#button{
+	position: relative;
+}
+
+/* Clock */
+.clock{
+	background: url(clock.jpeg);
+	width: 30vmin;
+	height: 30vmin;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	background-color: rgba(84, 83, 83, 0.4);
+	border-radius: 50%;
+	
+}
+
+.hour, .minute{
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+
+
+.hour-arrow, .minute-arrow{
+	background: url(arrow.jpeg);
+	background-size: 100% 100%;
+	width: 30%;
+	height: 100%;
+	margin-left: 50%;
+}
+
+.minute-arrow {
+	width: 40%;
+}
+
+
+.minute{
+	margin-top: 35%;
+	animation: minute 10s linear;
+	transform: rotate(-90deg);
+}
+
+.hour{
+	top: 45%;
+	animation: hour 10s linear;
+}
+
+@keyframes minute{
+	from{
+		transform: rotate(-90deg)
+	}
+	to{
+		transform: rotate(270deg);
+	}	
+}
+
+@keyframes hour{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(30deg);
+	}
+}
+
+
+
+
+
