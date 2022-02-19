@@ -1,0 +1,159 @@
+.box{
+    display: flex;
+    margin-bottom: 15%;
+}
+
+.subbox{
+    height: auto;
+	width: auto;
+	border: 6px solid red;
+	margin: auto;
+	margin-top: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.img1, .img2{
+    margin-top: 10%;
+    width: 80%;
+    height: 50%;
+}
+
+.subbox p{
+    font-family: arial;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+	border-radius: 12px;
+	
+	text-align: center;
+	text-decoration: none;
+
+	line-height: 6vmin;
+	font-size: 2.8vmin; 
+
+     margin-bottom: 5%;
+}
+
+/* Buttons*/
+.mdlwindow{
+    background-color: rgba(45, 59, 222, 0.6);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity:0;
+    pointer-events: none;
+  }
+  
+  
+.mdlwindow:target{
+  opacity: 1;
+  pointer-events: all;
+  }
+  
+
+.mdlwindow1{
+    background-color: rgba(14, 149, 61, 0.5);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity:0;
+    pointer-events: none;
+  }
+  
+  
+.mdlwindow1:target{
+  opacity: 1;
+  pointer-events: all;
+  }
+  
+ 
+  
+.msgblock{
+    width: 60%;
+	margin: auto;
+    background-color: orange;
+  }
+
+
+.msgblock1{
+    width: 60%;
+	margin: auto;
+    background-color: lightblue;
+  }
+
+.heading{
+    position: relative;
+} 
+
+.heading1{
+    position: relative;
+} 
+  
+.msgblock h1{
+	color: white;
+	line-height: 5vmin;
+    font-size: 5vmin;
+    background-color: pink;
+    padding : 20px;
+}
+
+.msgblock1 h1{
+	color: white;
+	line-height: 5vmin;
+    font-size: 5vmin;
+    background-color: pink;
+    padding : 20px;
+
+}
+
+
+.msgblock p, .msgblock1 p{
+  background-color: pink;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 3vmin;
+  font-size: 3vmin;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.msgblock img, .msgblock1 img {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.msgblock a{
+    text-decoration: none;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5vmin;
+    height: 2.5vmin;
+    text-align: center;
+  }
+
+  .msgblock1 a{
+    text-decoration: none;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5vmin;
+    height: 2.5vmin;
+    text-align: center;
+  }
