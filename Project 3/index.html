@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <h1>GUESS MY NUMBER</h1>
+    <h2>Guess the number between 1 and 100</h2>
+
+    <div class="main-box">
+        <div class="score-box">
+            <p>Score: <span id="score">10</span></p>
+            <p>High Score: <span id="high_score">0</span></p>
+        </div>
+        <div class="reset-box">
+            <button class="reset-button" id = "reset-button" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="game-box">
+            <div>
+                <img id="image" src="question.jpeg" alt="question">
+                <input class="input" id = "input" type="number" placeholder="Guess a number">
+                <button class="check-button" id="check-button" onclick="checkNum()">Check</button>
+                <p><span id="hints">Guess a number</span></p>
+
+            </div>
+        </div>
+
+        <div class="guess-history">
+            <p id = "history">Guess history</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+</html>
