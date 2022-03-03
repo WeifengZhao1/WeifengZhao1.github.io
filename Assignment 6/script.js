@@ -14,21 +14,24 @@ const tipCalculator = (val) => {
     //     console.log('The bill value is ' + val, ' the tip is ' + tip + ' The final value would be ' + total)
     // }
 
-    switch(val > 0 ) {
-        case val >= 30 && val <= 100 :
+    switch(true) {
+        case (val >= 30 && val <= 100) :
             var tip = 0.15 * val;
             var total = tip + val;
-            console.log('The bill value is ' + val, ' the tip is ' + tip + ' The final value would be ' + total)
+            console.log('The bill value is ' + val + ' the tip is ' + tip + ' The final value would be ' + total)
             break;
     
-        case val < 30 || val > 100:
+        case (val > 0 && val < 30 || val > 100):
             var tip = 0.20 * val;
             var total = tip + val;
-            console.log('The bill value is ' + val, ' the tip is ' + tip + ' The final value would be ' + total);
+            console.log('The bill value is ' + val + ' the tip is ' + tip + ' The final value would be ' + total);
             break;
 
-        default:
+
+        case val <= 0:
             console.log('bill must be greater than 0');
+
+        default:
             break;
      }
 }
